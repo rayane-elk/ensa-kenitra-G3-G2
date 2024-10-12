@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ENSA-K</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+<link rel="icon" type="image/png" href="pic/ENSAKENITRA_logo20230124153449.png"> 
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+          <a href="index.html"><img src="pic/ENSAKENITRA_logo20230124153449.png" alt=""></a>  
+          <div class="nav-links" id="navLinks">
+            <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+          <ul>
+            <li>
+                <a href="index.html">HOME</a></li>
+               <li><a href="ABOUT.html">ABOUT</a></li> 
+               <li><a href="course.html">COURSE</a></li> 
+               <li><a href="contact.html">CONTACT</a></li> 
+               <li><a href="blog.html">BLOG</a></li> 
+            
+          </ul>
+          </div>
+          <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+       <h1>CONTACT</h1>
+    </section>
+<!-- contact -->
+ <section class="location">
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2482.086918411993!2d-6.5858097242751!3d34.24859867308366!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xda759f9847310ff%3A0xfcdd86f18958657d!2sThe%20National%20School%20of%20Applied%20Sciences%2C%20Kenitra!5e1!3m2!1sen!2sma!4v1728743519582!5m2!1sen!2sma" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+ </section>
+  <section class="contact-us">
+
+    <div class="row">
+      <div class="contact-col">
+        <div>
+          <i class="fa-solid fa-location-dot"></i>
+          <span>
+            <h5>BP 241 Av. de L'Université, Kénitra 14000 </h5>
+            <p>Universite Ibn Tofail,Kenitra,Maroc</p>
+          </span>
+        </div>
+        <div>
+          <i class="fa-solid fa-phone"></i>          <span>
+            <h5>05373-76765</h5>
+            <p>DU Lundi Au Vendredi</p>
+          </span>
+        </div>
+        <div>
+          <i class="fa-solid fa-envelope"></i>
+          <span>
+            <h5>ensa.kenitra@uit.ac.ma</h5>
+            <p>email</p>
+          </span>
+        </div>
+      </div>
+    </div>
+
+
+
+  </section>
+
+<!-- ----footer---- -->
+<section class="footer">
+<h4>A Propos</h4>
+<p>Fondée avec pour mission de former des ingénieurs polyvalents et compétents, l'ENSA Kénitra (École Nationale des Sciences Appliquées de Kénitra) se distingue par son engagement envers l'excellence académique et l'innovation. Elle offre une formation de qualité dans divers domaines de l'ingénierie, tout en plaçant ses étudiants au cœur des avancées technologiques. Grâce à une approche pédagogique axée sur la pratique, des partenariats solides avec l'industrie et un environnement dynamique, l'ENSA Kénitra prépare ses lauréats à relever les défis du monde professionnel et à contribuer au développement technologique et économique du pays.</p>
+<div class="icons">
+    <i class="fa-brands fa-facebook"></i>
+    <i class="fa-brands fa-instagram"></i>
+    <i class="fa-brands fa-linkedin"></i>
+    <i class="fa-brands fa-twitter"></i>
+</div>
+<p>Creer Par CP1 SECTION:A G3/G2</p>
+</section>
+
+</section>
+
+
+
+
+    // <!----java script----->
+    <script>
+      var navLinks = document.getElementById("navLinks");
+      
+      function showMenu(){
+          navLinks.style.right = "0";
+      }
+      
+      function hideMenu(){
+          navLinks.style.right = "-200px";
+      }
+
+    </script>
+</body>
+</html>

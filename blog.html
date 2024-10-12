@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ENSA-K</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+<link rel="icon" type="image/png" href="pic/ENSAKENITRA_logo20230124153449.png"> 
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+          <a href="index.html"><img src="pic/ENSAKENITRA_logo20230124153449.png" alt=""></a>  
+          <div class="nav-links" id="navLinks">
+            <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+          <ul>
+            <li>
+                <a href="index.html">HOME</a></li>
+               <li><a href="ABOUT.html">ABOUT</a></li> 
+               <li><a href="course.html">COURSE</a></li> 
+               <li><a href="contact.html">CONTACT</a></li> 
+               <li><a href="blog.html">BLOG</a></li> 
+            
+          </ul>
+          </div>
+          <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+       <h1>ENSAK EN CHIFFRES</h1>
+    </section>
+<!-- BLOG PAGE CONTENT -->
+<section class="blog-content">
+    <div class="row">
+  <div class="blog-left">
+    <img src="pic/10-ways-to-be-a-better-student.jpeg" >
+    <h2>ENSAK EN CHIFFRES</h2>
+    <p>
+        Depuis sa création en 2008, l'Ecole Nationale des Sciences Appliquées de Kénitra (ENSAK) ne cesse de croître et de se distinguer. Aujourd'hui, ENSAK c'est :
+      </p>
+      <ul>
+        <li>Plus de 2000 étudiants inscrits dans différents cycles d’ingénierie</li>
+        <li>6 filières d'ingénierie innovantes couvrant des secteurs clés</li>
+        <li>Plus de 50 enseignants et intervenants qualifiés</li>
+        <li>Un réseau de plus de 100 partenariats avec des entreprises nationales et internationales</li>
+        <li>Plus de 500 ingénieurs diplômés, déjà actifs sur le marché du travail</li>
+        <li>Un campus moderne et dynamique favorisant l'innovation et la recherche</li>
+      </ul>
+</div>
+  <div class="blog-right">
+    <h3>post categories</h3>
+    <div>
+        <span>PROFESSEURS</span>
+     <span>60</span></div>
+     <div>  <span>ADMINISTRATIFS</span>
+        <span>28</span></div>
+        <div> <span>FORMATIONS</span>
+        <span>10</span></div>
+        <div> <span>etudiants</span>
+        <span>1697</span></div>
+    
+  </div>
+
+
+    </div>
+
+
+
+</section>
+
+<!-- ----footer---- -->
+<section class="footer">
+<h4>A Propos</h4>
+<p>Fondée avec pour mission de former des ingénieurs polyvalents et compétents, l'ENSA Kénitra (École Nationale des Sciences Appliquées de Kénitra) se distingue par son engagement envers l'excellence académique et l'innovation. Elle offre une formation de qualité dans divers domaines de l'ingénierie, tout en plaçant ses étudiants au cœur des avancées technologiques. Grâce à une approche pédagogique axée sur la pratique, des partenariats solides avec l'industrie et un environnement dynamique, l'ENSA Kénitra prépare ses lauréats à relever les défis du monde professionnel et à contribuer au développement technologique et économique du pays.</p>
+<div class="icons">
+    <i class="fa-brands fa-facebook"></i>
+    <i class="fa-brands fa-instagram"></i>
+    <i class="fa-brands fa-linkedin"></i>
+    <i class="fa-brands fa-twitter"></i>
+</div>
+<p>Creer Par CP1 SECTION:A G3/G2</p>
+</section>
+
+</section>
+
+
+
+
+    // <!----java script----->
+    <script>
+      var navLinks = document.getElementById("navLinks");
+      
+      function showMenu(){
+          navLinks.style.right = "0";
+      }
+      
+      function hideMenu(){
+          navLinks.style.right = "-200px";
+      }
+
+    </script>
+</body>
+</html>
